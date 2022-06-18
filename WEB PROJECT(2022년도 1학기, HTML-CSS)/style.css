@@ -1,3 +1,13 @@
+html {
+    background: url(image/rough-horn.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: 'bazzi';
+}
 a {
     color:black;
     text-decoration:none;
@@ -5,33 +15,41 @@ a {
 h1 {
     font-size:40px;
     text-align:center;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid none;
     margin:0;
     padding:20px;
 }
 ol {
+    font-size:20px;
     border-right:1px solid gray;
-    width:100px;
+    width:230px;
     margin:0;
-    padding:20px;
+    padding:30px;
 }
 #grid {
     display:grid;
-    grid-template-columns: 250px 1fr;
-    border-bottom:1px solid gray;
+    grid-template-columns: 330px 1fr;
+    grid-template-rows: 800px;
+    border-bottom:2px solid gray;
 }
 #grid ol {
     padding-left:50px;
     padding-right:50px;
 }
 #grid #article {
+    font-size:30px;
     padding-top:20px;
-    padding-left:25px;
+    padding-left:100px;
     padding-bottom:20px;
 }
 #copyright {
+    color:white;
     padding-bottom:0;
     text-align:center;
+}
+@font-face {
+    font-family: 'bazzi';
+    src: url(font/Bazzi.ttf) format('truetype');
 }
 @media(max-width:800px) {
     #grid {
