@@ -4,7 +4,7 @@ a {
 }
 h1 {
     font-size:40px;
-    text-align: center;
+    text-align:center;
     border-bottom:1px solid gray;
     margin:0;
     padding:20px;
@@ -18,12 +18,19 @@ ol {
 #grid {
     display:grid;
     grid-template-columns: 150px 1fr;
+    border-bottom:1px solid gray;
 }
 #grid ol {
     padding-left:33px;
 }
 #grid #article {
+    padding-top:20px;
     padding-left:25px;
+    padding-bottom:20px;
+}
+#copyright {
+    padding-bottom:0;
+    text-align:center;
 }
 @media(max-width:800px) {
     #grid {

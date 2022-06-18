@@ -9,37 +9,40 @@
 </head>
 <body>
     <h1><a href = "index.html">메인</a></h1>
-    <ol>
-        <li><a href = "1.html">기술소개</a></li>
-        <li><a href = "2.html">기본문법</a></li>
-        <li><a href = "3.html">하이퍼텍스트와 속성</a></li>
-        <li><a href = "4.html">리스트와 태그의 중첩</a></li>
-    </ol>
 
-    <h2>우와! 2번 페이지네요</h2>
-
-    <table border = "1">
-        <thead>
-            <tr>
-                <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>이동기</td> <td>남</td> <td rowspan = "2">천안</td> <td>1000</td>
-            </tr>
-            <tr>
-                <td>김보라</td> <td>여</td> <td>500</td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td colspan = "3">합계</td> <td>1500</td>
-            </tr>
-        </tfoot>
-
-    <table>
+    <div id = "grid">
+        <ol>
+            <li><a href = "1.html">기술소개</a></li>
+            <li><a href = "2.html">기본문법</a></li>
+            <li><a href = "3.html">하이퍼텍스트와 속성</a></li>
+            <li><a href = "4.html">리스트와 태그의 중첩</a></li>
+        </ol>
+    
+        <div id = "article">
+            <table border = "1">
+                <thead>
+                    <tr>
+                        <th>이름</th> <th>성별</th> <th>주소</th> <th>회비</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                           <td>이동기</td> <td>남</td> <td rowspan = "2">천안</td> <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>김보라</td> <td>여</td> <td>500</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan = "3">합계</td> <td>1500</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div id = "copyright">
+        Copyright ⓒ 2022 writersnow707. All rights reserved
+    </div>
 </body>
 </html>
