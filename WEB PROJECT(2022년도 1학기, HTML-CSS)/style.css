@@ -5,71 +5,86 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
 body {
     font-family: 'bazzi';
 }
+
 a {
-    color:black;
-    text-decoration:none;
+    color: black;
+    text-decoration: none;
 }
+
 h1 {
-    font-size:40px;
-    text-align:left;
-    border-bottom:1px solid none;
-    margin:0;
-    padding:20px;
+    font-size: 40px;
+    text-align: left;
+    border-bottom: 1px solid none;
+    margin: 0;
+    padding: 20px;
 }
+
 ol {
-    font-size:20px;
-    border-right:1px solid gray;
-    width:230px;
-    margin:0;
-    padding:30px;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    width: 250px;
+    margin: 0;
+    padding: 30px;
 }
+
 #grid {
-    display:grid;
-    grid-template-columns: 330px 2fr;
-    grid-template-rows:none; /*크기를 책정하지 않음 */
-    border-bottom:2px solid gray;
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    /*크기를 책정하지 않음 */
+    grid-template-rows: none;
+    border-bottom: 2px solid gray;
 }
+
 #grid p {
-    font-size:25px;
-    padding:0;
-    margin-left:30px;
-    margin-top:50px;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 50px;
 }
+
 #grid ol {
-    padding-left:50px;
-    padding-right:50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
+
 #grid #article {
-    font-size:15px;
-    padding-bottom:20px;
-    padding-top:20px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
+
 #copyright {
-    color:black;
-    padding-bottom:0;
-    text-align:center;
+    color: black;
+    padding-bottom: 0;
+    text-align: center;
 }
+
 #button_location {
-    padding-left:500px;
+    padding-left: 500px;
 }
+
 @font-face {
     font-family: 'bazzi';
     src: url(font/Bazzi.ttf) format('truetype');
 }
+
 @media(max-width:800px) {
     #grid {
-       display : block;
+        display: block;
     }
+
     ol {
-        border-right:none;
-        width:100px;
-        margin:0;
-        padding:20px;
+        border-right: none;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
     }
+
     h1 {
-        border-bottom:none;
+        border-bottom: none;
     }
 }
