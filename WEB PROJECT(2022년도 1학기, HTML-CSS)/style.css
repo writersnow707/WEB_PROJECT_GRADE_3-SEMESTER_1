@@ -14,7 +14,7 @@ a {
 }
 h1 {
     font-size:40px;
-    text-align:center;
+    text-align:left;
     border-bottom:1px solid none;
     margin:0;
     padding:20px;
@@ -32,6 +32,12 @@ ol {
     grid-template-rows: 800px;
     border-bottom:2px solid gray;
 }
+#grid p {
+    font-size:25px;
+    padding:0;
+    margin-left:30px;
+    margin-top:50px;
+}
 #grid ol {
     padding-left:50px;
     padding-right:50px;
@@ -46,6 +52,9 @@ ol {
     color:white;
     padding-bottom:0;
     text-align:center;
+}
+#button_location {
+    padding-left:500px;
 }
 @font-face {
     font-family: 'bazzi';
