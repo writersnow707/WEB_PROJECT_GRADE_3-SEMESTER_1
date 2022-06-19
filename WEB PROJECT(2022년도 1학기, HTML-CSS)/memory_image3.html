@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kor">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script asyns src="https://www.googletagmanager.com/gtag/is?id=UA-109816844-1"></script>
-    <title>로그인</title>
+    <title>JAVA 회원관리 데이터베이스 프로그램 구현</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,8 +15,8 @@
     </div>
     <div id="grid">
         <ol>
-            <ul><img src="image/dream_moon.jpg" width="150"></ul>
-            <ul><a style="color:indigo">writersnow707<br>(스노우707)</a></ul><br>
+            <ul><img src = "image/dream_moon.jpg" width="150"></ul>
+            <ul><a style = "color:indigo">writersnow707<br>(스노우707)</a></ul><br>
             <ul>
                 <div>
                     <table border="2">
@@ -87,35 +86,28 @@
                     </table>
                 </div>
             </ul><br>
-            <ul>
-                <div id="current_date" style="color:brown">
-                    </p>
-                    <script>
-                        date = new Date();
-                        year = date.getFullYear();
-                        month = date.getMonth() + 1;
-                        day = date.getDate();
-                        document.getElementById("current_date").innerHTML =
-                            "오늘은 " + year + "년 " + month + "월 " + day + "일입니다.";
-                    </script>
-            </ul><br>
-            <ul>개발자 정보 보기</ul><br>
+            <ul><a href = "profile.html">
+                개발자 프로필 보기</a></ul><br>
             <ul><a href="https://blog.naver.com/writtensnow" target="_blank">
                     개발자 블로그 바로가기</a></ul><br>
             <ul><a href="https://github.com/writersnow707" target="_blank">
                     개발자 GitHub 바로가기</a></ul><br><br>
             <ul><a href="login.html">로그인</a></ul><br>
             <ul><a href="signup.html">회원가입</a></ul><br>
-            <ul><a href="data_library.html">자료실</a></ul><br>
+            <ul><a href = "data_library.html">파일 자료실</a></ul><br>
+            <ul><a href = "image_library.html">이미지 자료실</a></ul><br>
         </ol>
-        <form action="http://localhost/login.php">
-            <p>아이디 : <input type="text" name="id">&nbsp;&nbsp;
-                비밀번호 : <input type="password" name="password"></p>
-            <div id="button_location">
-                <input type="submit">
+        <div id="article" style="font-size:28px;padding-left:60px">
+            <h1>소꿉친구 지은이와의 추억 사진들</h1><br><br>
+            <div style="padding-left:20px">
+                <img src="image/remember_image.jpg" width="500"><br>
+                <a style="font-size:30px">소꿉친구 지은이와의 추억 사진들<br><br>
+                </a>
             </div>
-        </form>
+        </div>
     </div>
-    </form>
+    <div id="copyright">
+        Copyright ⓒ 2022 writersnow707. All rights reserved
+    </div>
 </body>
 </html>
