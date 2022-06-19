@@ -1,5 +1,5 @@
 html {
-    background: url(image/rough-horn.jpg) no-repeat center center fixed;
+    background: url(image/christmas-3864552_1920.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,8 +28,8 @@ ol {
 }
 #grid {
     display:grid;
-    grid-template-columns: 330px 1fr;
-    grid-template-rows: 800px;
+    grid-template-columns: 330px 2fr;
+    grid-template-rows:none; /*크기를 책정하지 않음 */
     border-bottom:2px solid gray;
 }
 #grid p {
@@ -44,12 +44,11 @@ ol {
 }
 #grid #article {
     font-size:15px;
-    padding-top:20px;
-    /* padding-left:100px; */
     padding-bottom:20px;
+    padding-top:20px;
 }
 #copyright {
-    color:white;
+    color:black;
     padding-bottom:0;
     text-align:center;
 }
